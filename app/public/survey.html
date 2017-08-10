@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta lang="en-us">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+	<title class="fa fa-check-square" aria-hidden="true">About You</title>
+	
+ 	<!-- <script src="https://use.fontawesome.com/a1ae226c56.js"></script> -->
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"
+	
+	<!-- jQuery -->
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+	<div class="container-fluid">
+  <h2>Friend Survey</h2>
+
+		<form>
+  <div class="form-group">
+    <label for="name">Your Name (required)</label>
+    <input type="text" class="form-control form-control-danger" id="name" aria-describedby="nameHelp" placeholder="Who are ya?" required>
+  </div>
+
+  <div class="form-group">
+    <label for="photoLink">Paste a link to your image (required)</label>
+    <input type="url" class="form-control form-control-danger" id="url" aria-describedby="urlHelp" placeholder="What do you look like?" required>
+  </div>
+  
+
+  <p>
+	  How much do you agree with the following statements? 1 is "Strongly Disagree" and 5 is "Strongly Agree." 
+  </p>
+
+  <p>
+  	1. Traveling around the world is interesting to me.
+  </p>
+  <form>
+    <label class="radio-inline">
+      <input type="radio" name="optradio" value="1">1
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio" value="2">2
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio" value="3">3
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio" value="4">4
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio" value="5">5
+    </label>
+  </form>
+</div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+	</div>
+<script src="assets/js/script.js"></script>
+
+</body>
+
+
+
+</html>
